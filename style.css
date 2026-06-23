@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+}
+
+header{
+    background-color: #ff00bf;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.cabecalho-itens{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabecalho_imagem{
+    width: 250px;
+}
+
+.titulo_site{
+    text-align: center;
+    font-size: 40px;
+}
+
+.sociais{
+    display: flex;
+    gap: 10px;
+}
+
+.body {
+    background-color: #9626ff;
+}
+
+.sociais img{
+    width: 50px;
+}
+
+.banner1 {
+    color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.escola-image {
+    width: 80%;
+    max-width: 1200px;
+}
+
+.txtbanner {
+    margin-top: 20px;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -100px;
+}
+
+.titulo-sobre{
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.sobre-mim{
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+    line-height: 1.8;
+    color: black;
+    padding: 0 20px;
+    margin-top: 10px;
+}
+
+.estudante{
+    background-color: #ff00bf;
+    padding: 40px 20px;
+}
+
+.estudante_titulo{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.estudantes_todos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+.estudante-imagem{
+    width: 150px;
+    border-radius: 10px;
+}
+
+.estudante-nome{
+    margin: 10px 0;
+}
+
+.estudante-icone{
+    width: 35px;
+    margin: 5px;
+}
+
+.escola{
+    background: linear-gradient(#ff00bf,#f172d2);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+.logo_rodape{
+    height: 80px;
+    margin-bottom: 15px;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
